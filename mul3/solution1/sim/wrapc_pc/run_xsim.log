@@ -1,0 +1,89 @@
+2X2=4
+3X3=9
+4X4=16
+5X5=25
+1X1=1
+3X3=9
+10X5=50
+6X6=36
+7X7=49
+8X8=64
+9X9=81
+10X10=100
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/tools/Xilinx/Vivado/2018.3/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_multi_top glbl -prj multi.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /tools/Xilinx/Vivado/2018.3/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s multi 
+Multi-threading is on. Using 6 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ramesh/mul3/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ramesh/mul3/solution1/sim/verilog/multi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ramesh/mul3/solution1/sim/verilog/multi.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_multi_top
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multi
+Compiling module xil_defaultlib.apatb_multi_top
+Compiling module work.glbl
+Built simulation snapshot multi
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ramesh/mul3/solution1/sim/verilog/xsim.dir/multi/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 17 11:18:48 2023...
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/multi/xsim_script.tcl
+# xsim {multi} -autoloadwcfg -tclbatch {multi.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source multi.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 12 [n/a] @ "125000"
+// RTL Simulation : 1 / 12 [n/a] @ "145000"
+// RTL Simulation : 2 / 12 [n/a] @ "155000"
+// RTL Simulation : 3 / 12 [n/a] @ "165000"
+// RTL Simulation : 4 / 12 [n/a] @ "175000"
+// RTL Simulation : 5 / 12 [n/a] @ "185000"
+// RTL Simulation : 6 / 12 [n/a] @ "195000"
+// RTL Simulation : 7 / 12 [n/a] @ "205000"
+// RTL Simulation : 8 / 12 [n/a] @ "215000"
+// RTL Simulation : 9 / 12 [n/a] @ "225000"
+// RTL Simulation : 10 / 12 [n/a] @ "235000"
+// RTL Simulation : 11 / 12 [n/a] @ "245000"
+// RTL Simulation : 12 / 12 [n/a] @ "255000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 295 ns : File "/home/ramesh/mul3/solution1/sim/verilog/multi.autotb.v" Line 336
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 17 11:19:16 2023...
+2X2=4
+3X3=9
+4X4=16
+5X5=25
+1X1=1
+3X3=9
+10X5=50
+6X6=36
+7X7=49
+8X8=64
+9X9=81
+10X10=100

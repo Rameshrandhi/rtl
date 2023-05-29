@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 17 11:18:49 2023
+# Process ID: 6773
+# Current directory: /home/ramesh/mul3/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/multi/xsim_script.tcl}
+# Log file: /home/ramesh/mul3/solution1/sim/verilog/xsim.log
+# Journal file: /home/ramesh/mul3/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/multi/xsim_script.tcl
+# xsim {multi} -autoloadwcfg -tclbatch {multi.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source multi.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 12 [n/a] @ "125000"
+// RTL Simulation : 1 / 12 [n/a] @ "145000"
+// RTL Simulation : 2 / 12 [n/a] @ "155000"
+// RTL Simulation : 3 / 12 [n/a] @ "165000"
+// RTL Simulation : 4 / 12 [n/a] @ "175000"
+// RTL Simulation : 5 / 12 [n/a] @ "185000"
+// RTL Simulation : 6 / 12 [n/a] @ "195000"
+// RTL Simulation : 7 / 12 [n/a] @ "205000"
+// RTL Simulation : 8 / 12 [n/a] @ "215000"
+// RTL Simulation : 9 / 12 [n/a] @ "225000"
+// RTL Simulation : 10 / 12 [n/a] @ "235000"
+// RTL Simulation : 11 / 12 [n/a] @ "245000"
+// RTL Simulation : 12 / 12 [n/a] @ "255000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 295 ns : File "/home/ramesh/mul3/solution1/sim/verilog/multi.autotb.v" Line 336
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 17 11:19:16 2023...

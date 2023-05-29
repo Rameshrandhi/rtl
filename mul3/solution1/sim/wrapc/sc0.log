@@ -1,0 +1,5 @@
+   Build using "/tools/Xilinx/Vivado/2018.3/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_multi.cpp
+   Compiling multiplier.cpp_pre.cpp.tb.cpp
+   Compiling multiplier_tb.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

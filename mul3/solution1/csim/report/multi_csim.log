@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../Downloads/hls/multi/multiplier.cpp in debug mode
+../../../../Downloads/hls/multi/multiplier.cpp:6:1: error: ‘C’ does not name a type
+ C=A*B;
+ ^
+make: *** [csim.mk:85: obj/multiplier.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

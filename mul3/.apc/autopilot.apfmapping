@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="multiplier.cpp" path="/home/ramesh/multiplier.cpp"/>
+    <originFiles name="header.h" path="/home/ramesh/header.h"/>
+  </source>
+  <testbench>
+    <originFiles name="multiplier_tb.cpp" path="/home/ramesh/multiplier_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

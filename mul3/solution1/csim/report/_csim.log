@@ -1,0 +1,18 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../Downloads/hls/multi/multiplier_tb.cpp in debug mode
+   Generating csim.exe
+2X2=4
+3X3=9
+4X4=16
+5X5=25
+1X1=1
+3X3=9
+5X5=25
+6X6=36
+7X7=49
+8X8=64
+9X9=81
+10X10=100
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
